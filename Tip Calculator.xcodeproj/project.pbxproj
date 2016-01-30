@@ -12,6 +12,7 @@
 		725B67921C5B3B660056A137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B67901C5B3B660056A137 /* Main.storyboard */; };
 		725B67941C5B3B660056A137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725B67931C5B3B660056A137 /* Assets.xcassets */; };
 		725B67971C5B3B660056A137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725B67951C5B3B660056A137 /* LaunchScreen.storyboard */; };
+		725B679F1C5B40900056A137 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725B679E1C5B40900056A137 /* Bill.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		725B67931C5B3B660056A137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		725B67961C5B3B660056A137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		725B67981C5B3B660056A137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		725B679E1C5B40900056A137 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +56,11 @@
 		725B678B1C5B3B660056A137 /* Tip Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				725B678C1C5B3B660056A137 /* AppDelegate.swift */,
-				725B678E1C5B3B660056A137 /* ViewController.swift */,
 				725B67901C5B3B660056A137 /* Main.storyboard */,
+				725B679E1C5B40900056A137 /* Bill.swift */,
+				725B678E1C5B3B660056A137 /* ViewController.swift */,
 				725B67931C5B3B660056A137 /* Assets.xcassets */,
+				725B678C1C5B3B660056A137 /* AppDelegate.swift */,
 				725B67951C5B3B660056A137 /* LaunchScreen.storyboard */,
 				725B67981C5B3B660056A137 /* Info.plist */,
 			);
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				725B678F1C5B3B660056A137 /* ViewController.swift in Sources */,
+				725B679F1C5B40900056A137 /* Bill.swift in Sources */,
 				725B678D1C5B3B660056A137 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				725B679D1C5B3B660056A137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
